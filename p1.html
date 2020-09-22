@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<div class="container" id="myContainer">
+  <div class="my-stuff">
+    <h2>my test content</h2>
+  </div>
+  <div class="my-stuff">
+    <h2>my test content</h2>
+  </div>
+  <div class="my-stuff">
+    <h2>my test content</h2>
+  </div>
+  <div class="my-stuff">
+    <h2>my test content</h2>
+  </div>
+ </div>
+
+<script>
+const myStuff = document.querySelectorAll(".my-stuff");
+console.log(myStuff.length);
+
+
+ for (const x of myStuff.values()) {
+   console.log('x is: ', x);
+ };
+</script>
+
+
+</body>
+</html>
